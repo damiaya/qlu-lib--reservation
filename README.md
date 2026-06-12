@@ -14,37 +14,12 @@ Or double-click:
 QLU-LIB-CMD.bat
 ```
 
-## Scrapling Version
-
-This project also includes a Python implementation driven by Scrapling:
-
-```powershell
-npm run scrapling
-```
-
-Or double-click:
-
-```text
-QLU-LIB-SCRAPLING.bat
-```
-
-If dependencies are missing, install them into the project folder:
-
-```powershell
-python -m pip install --target .\.pydeps -r requirements-scrapling.txt
-```
-
 If the CAS browser reports that Chromium is missing, install the browser runtime:
 
 ```powershell
-$env:PYTHONPATH = ".\.pydeps"
+python -m pip install playwright
 python -m playwright install chromium
 ```
-
-The Scrapling version keeps the same local token file, `.qlu-token.json`, and uses:
-
-- `FetcherSession` for the school JSON APIs.
-- `DynamicSession` for opening CAS and reading `sessionStorage.token`.
 
 ## Token
 

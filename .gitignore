@@ -7,6 +7,9 @@ __pycache__/
 .env
 original-upload/
 qlu-lib-original-upload.zip
+QLU-LIB-SCRAPLING.bat
+requirements-scrapling.txt
+scrapling_cli.py
 *.log
 token-lifetime.log
 .DS_Store
