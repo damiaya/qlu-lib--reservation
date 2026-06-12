@@ -1,10 +1,13 @@
 node_modules/
+.pydeps/
+__pycache__/
+*.pyc
 .cas-browser-profile/
 .qlu-token.json
 .env
+original-upload/
+qlu-lib-original-upload.zip
 *.log
 token-lifetime.log
-__pycache__/
-*.pyc
 .DS_Store
 Thumbs.db

@@ -6,6 +6,8 @@
   "main": "cli.js",
   "scripts": {
     "start": "node cli.js",
+    "scrapling": "python scrapling_cli.py",
+    "scrapling-token": "python scrapling_cli.py --token-only",
     "token": "python cas_token_helper.py",
     "probe-token": "node token_lifetime_probe.js"
   },
